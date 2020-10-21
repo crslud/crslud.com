@@ -29,13 +29,13 @@
         {% if TAG_FEED_RSS and tag %}
         <link href="{{ FEED_DOMAIN }}/{% if TAG_FEED_RSS_URL %}{{ TAG_FEED_RSS_URL.format(slug=tag.slug) }}{% else %}{{ TAG_FEED_RSS.format(slug=tag.slug) }}{% endif %}" type="application/rss+xml" rel="alternate" title="{{ SITENAME }} Tags RSS Feed" />
         {% endif %}
-	<link href="{{ SITE_URL}}/theme/style.css" rel="stylesheet">
+	<link href="{{ SITE_URL }}/theme/css/style.css" rel="stylesheet">
         {% endblock head %}
 </head>
 
 <body id="index" class="home">
         <header id="banner" class="body">
-                <h1><a href="{{ SITEURL }}/">{{ SITENAME }}{% if SITESUBTITLE %} <strong>{{ SITESUBTITLE }}</strong>{% endif %}</a></h1>
+                <h1 id="titlename"><a href="{{ SITEURL }}/"># {{ SITENAME }}{% if SITESUBTITLE %} <strong>{{ SITESUBTITLE }}</strong>{% endif %}</a></h1>
         </header><!-- /#banner -->
         <nav id="menu"><ul>
         {% for title, link in MENUITEMS %}
