@@ -3,10 +3,17 @@ html {
 	color: #839496;
 }
 
-a {
+h1, h2 {
 	color: #859900;
+}
+
+a {
 	text-decoration: none;
 }
+
+ul, ol {
+	list-style:none;
+}	
 
 .titlename {
 
