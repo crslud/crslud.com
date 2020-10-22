@@ -4,10 +4,23 @@ html {
 }
 
 h1, h2 {
+	color: #cb4b16;
+}
+
+h1::before {
+	content: "# ";
+}
+
+h2::before {
+	content: "## ";
+}
+
+h1::before, h2::before {
 	color: #859900;
 }
 
 a {
+	color: inherit;
 	text-decoration: none;
 }
 
