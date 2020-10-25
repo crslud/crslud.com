@@ -1,6 +1,19 @@
 {% extends "base.html" %}
 {% block content %}
 <section id="content">
+{% block menu %}
+{% block menu_title %}
+<h2>Links</h2>
+{% endblock %}
+<nav id="menu">
+<ul>
+{% if DISPLAY_PAGES_ON_MENU %}
+   {% for p in pages %}
+       <li{% if p == page %} class="active"{% endif %}><a href="{{ SITEURL }}/{{ p.url }}">{{ p.title }}</a></li>
+   {% endfor %}
+{% endif %}
+        </ul></nav><!-- /#menu -->
+{% endblock menu %}
 {% block content_title %}
 <h2>Blog</h2>
 {% endblock %}
