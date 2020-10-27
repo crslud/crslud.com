@@ -3,8 +3,23 @@ html {
 	color: #839496;
 }
 
+body {
+	font-size 14px;
+}
+
 h1, h2 {
 	color: #cb4b16;
+}
+
+h1 {
+
+	font-size: 2rem;
+}
+
+h2, h3 {
+	font-size: 1rem;
+	display: inline;
+	font-weight: normal;
 }
 
 h1::before {
@@ -24,10 +39,3 @@ a {
 	text-decoration: none;
 }
 
-ul, ol {
-	list-style:none;
-}	
-
-.titlename {
-
-}

@@ -18,7 +18,7 @@
 <h2>Blog</h2>
 {% endblock %}
 
-<ol id="post-list">
+<ul id="post-list">
 {% for article in articles_page.object_list %}
         <li><article class="hentry">
                 <header> <h3 class="entry-title"><a href="{{ SITEURL }}/{{ article.url }}" rel="bookmark" title="Permalink to {{ article.title|striptags }}">{{ article.title }}</a></h2> </header>
