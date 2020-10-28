@@ -1,10 +1,6 @@
-html {
+body {
 	background-color: #002a35;
 	color: #839496;
-}
-
-body {
-	font-size 14px;
 }
 
 h1, h2 {
@@ -14,6 +10,7 @@ h1, h2 {
 h1 {
 
 	font-size: 2rem;
+	font-weight: normal;
 }
 
 h2, h3 {
