@@ -36,3 +36,10 @@ a {
 	text-decoration: none;
 }
 
+.home {
+	width: 500px;
+	margin: 0 auto;
+	padding-left: 2rem;
+	padding-right: 2rem;
+}
+
