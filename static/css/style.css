@@ -46,3 +46,10 @@ ul a {
 	padding-right: 2rem;
 }
 
+.timestamp {
+	display: inline;
+}
+
+.blogentryheader {
+	display: inline;
+}
