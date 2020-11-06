@@ -12,7 +12,7 @@ h1 {
 
 h2 {
 	font-size: 1rem;
-	font-weight: bold;
+	font-weight: normal;
 }
 
 h3 {
@@ -48,8 +48,18 @@ ul a {
 
 .timestamp {
 	display: inline;
+	font-size: 0.75rem;
+	color: #839496;
 }
 
 .blogentryheader {
 	display: inline;
+}
+
+
+@media all and (max-width: 900px) {
+	#page {
+		width: inherit;
+		padding-left: 10%;
+		padding-right: 10%
 }
