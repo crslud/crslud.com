@@ -39,6 +39,10 @@ ul a {
 	color: #cb4b16;
 }
 
+time {
+	color: #859900;
+	}
+
 .home {
 	width: 500px;
 	margin: 0 auto;
@@ -56,6 +60,16 @@ ul a {
 	display: inline;
 }
 
+.entry-title::before {
+	content: "➜ ";
+	color: #859900;
+	}
+
+.entry-title {
+	display: inline;
+	color: #cb4b16;
+	font-size: 1.1rem;
+	}
 
 @media only screen and (max-width: 750px) {
 	#page {
@@ -67,3 +81,4 @@ ul a {
 		font-size: 1.2rem;
 		}
 }
+
