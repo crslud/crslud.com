@@ -49,6 +49,10 @@ time {
 	color: #859900;
 	}
 
+footer {
+	font-size: 0.75rem;
+	}
+
 .home {
 	width: 500px;
 	margin: 0 auto;
